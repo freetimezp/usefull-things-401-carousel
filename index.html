@@ -10,7 +10,64 @@
     </head>
 
     <body>
-        start
+        <nav>
+            <div class="logo">
+                <a href="#">Logo</a>
+            </div>
+
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Projects</a>
+                <a href="#">About Us</a>
+            </div>
+        </nav>
+
+        <div class="carousel">
+            <div class="carousel-images"></div>
+        </div>
+
+        <div class="slider-controls">
+            <button class="control-btn prev-btn">
+                <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#fff"
+                >
+                    <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+                </svg>
+            </button>
+
+            <button class="control-btn next-btn">
+                <svg
+                    xmlns="https://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#fff"
+                >
+                    <path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z" />
+                </svg>
+            </button>
+        </div>
+
+        <footer>
+            <p>design 2025</p>
+            <p>creative coding</p>
+        </footer>
+
+        <svg viewBox="0 0 0 0" aria-hidden="true" style="position: absolute; z-index: -1; opacity: 0">
+            <defs>
+                <filter id="blur-matrix">
+                    <feColorMatrix
+                        in="SourceGraphic"
+                        type="matrix"
+                        values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 255 -140"
+                    ></feColorMatrix>
+                </filter>
+            </defs>
+        </svg>
 
         <script type="module" src="./src/assets/js/main.js"></script>
     </body>
